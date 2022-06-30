@@ -77,8 +77,13 @@ ABOUT
 */
 
 #about {
-    padding: 48px 0;
     background-color: #f8ffdc;
+}
+
+#about,
+#discord,
+#contact {
+    padding: 48px 0;
 }
 
 h2 {
@@ -115,4 +120,30 @@ img {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/* 
+
+DISCORD
+
+*/
+#discord {
+    background-color: #cefeff;
+}
+
+/*  
+
+Contact
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+    display: flex;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
