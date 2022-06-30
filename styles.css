@@ -65,7 +65,7 @@ li {
 .row {
     display: flex;
     width: 100%;
-    max-width: 1300px;
+    max-width: 800px;
     align-items: center;
     justify-content: center;
 }
@@ -139,11 +139,19 @@ Contact
 
 #contact {
     background-color: #dce9ff;
-    display: flex;
 }
 
 form {
     width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
 }
